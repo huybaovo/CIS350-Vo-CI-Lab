@@ -9,7 +9,12 @@ def multiply_numbers(a, b):
 
 def divide_numbers(a, b):
     return a / b
+
+def modulo_numbers(a, b):
+    return a % b
     
+def square_numbers(a):
+    return a**2
 
 if __name__ == "__main__":
     print("Adding:", add_numbers(2,4))

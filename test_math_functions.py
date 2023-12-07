@@ -19,3 +19,11 @@ def test_calc_multiply_fail():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+
+def test_calc_modulo():
+    output = modulo_numbers(25, 4)
+    assert output == 1
+
+def test_calc_square():
+    output = square_numbers(4)
+    assert output == 16
